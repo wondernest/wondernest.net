@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: olive; /* Darker background on hover */
+  background-color: darkolivegreen /* Darker background on hover */
 }
 
 .container {
