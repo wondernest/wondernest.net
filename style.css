@@ -57,6 +57,11 @@ button:hover {
   width: 80%;
   margin: 0 auto;
 }
+.text-separator {
+  border-top: 1px solid oldlace; /* Define the style of the line */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
 
 .image-container {
   display: flex;
