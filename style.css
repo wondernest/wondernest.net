@@ -28,6 +28,18 @@ header {
   padding: 20px 0;
 }
 
+h1 {
+  font-size: 36px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the font bold */
+  color: olive; /* Set the color of the heading */
+  text-align: center; /* Center align the heading */
+  text-transform: uppercase; /* Transform text to uppercase */
+  letter-spacing: 2px; /* Add space between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  /* You can add more styles like font-family, line-height, etc. as per your design */
+}
+
+
 button {
   text-decoration: none;
   background-color:olive; /* Dark background */
@@ -44,6 +56,42 @@ button:hover {
 .container {
   width: 80%;
   margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Center the images horizontally */
+  align-items: center; /* Center the images vertically */
+  margin-bottom: 20px; /* Add space below the images */
+  margin-top: 20px; /* Add space below the images */
+  flex-direction: row; /* Default: images are displayed in a row */
+}
+
+.image-container img {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 10px;  /* Add space between images */
+  padding: 0 10px;
+}
+
+
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+  }
+  .image-container img {
+    width: 200px; /* adjust width for smaller screens */
+    height: 200px; /* adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container img {
+    width: 160px; /* adjust width for even smaller screens */
+    height: 160px; /* adjust height for even smaller screens */
+  }
 }
 
 
