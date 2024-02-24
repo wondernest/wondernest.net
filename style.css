@@ -1,0 +1,55 @@
+
+/* Media query for tablets */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(159, 144, 78); /* brown background */
+  color: #ffffff; /* white text color */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 236, 215);
+  color: rgb(125, 112, 53);
+  padding: 20px 0;
+}
+
+button {
+  text-decoration: none;
+  background-color: rgb(125, 112, 53); /* Dark background */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(97, 85, 34); /* Darker background on hover */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+footer {
+  background-color: rgb(240, 236, 215);
+  color: rgb(159, 144, 78);
+  padding: 20px 0;
+  text-align: center;
+}
