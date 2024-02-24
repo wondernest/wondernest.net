@@ -15,30 +15,30 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(159, 144, 78); /* brown background */
-  color: #ffffff; /* white text color */
+  background-color: olive ; /* brown background */
+  color: oldlace; /* white text color */
   margin: 0;
   padding: 0;
 }
 
 header {
   font-family: Arial, sans-serif;
-  background-color: rgb(240, 236, 215);
-  color: rgb(125, 112, 53);
+  background-color: oldlace;
+  color: olive;
   padding: 20px 0;
 }
 
 button {
   text-decoration: none;
-  background-color: rgb(125, 112, 53); /* Dark background */
-  color: #fff; /* White text color */
+  background-color:olive; /* Dark background */
+  color: oldlace; /* White text color */
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: rgb(97, 85, 34); /* Darker background on hover */
+  background-color: olive; /* Darker background on hover */
 }
 
 .container {
@@ -48,8 +48,8 @@ button:hover {
 
 
 footer {
-  background-color: rgb(240, 236, 215);
-  color: rgb(159, 144, 78);
+  background-color: oldlace;
+  color: olive;
   padding: 20px 0;
   text-align: center;
 }
