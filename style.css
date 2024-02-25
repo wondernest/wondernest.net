@@ -28,14 +28,15 @@ header {
   padding: 20px 0;
 }
 
+
 h1 {
-  font-size: 36px; /* Adjust the font size as needed */
+  font-size: 35px; /* Adjust the font size as needed */
   font-weight: bold; /* Make the font bold */
   color: olive; /* Set the color of the heading */
   text-align: center; /* Center align the heading */
   text-transform: uppercase; /* Transform text to uppercase */
   letter-spacing: 2px; /* Add space between letters */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  
   /* You can add more styles like font-family, line-height, etc. as per your design */
 }
 
@@ -99,10 +100,29 @@ button:hover {
   }
 }
 
+.contact-list {
+  font-size: 16px;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+
 
 footer {
   background-color: oldlace;
   color: olive;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
+  width: 100%; /* Set the width to 100% */
+  margin-left: 0; /* Remove any default margin */
+  margin-right: 0; /* Remove any default margin */
 }
