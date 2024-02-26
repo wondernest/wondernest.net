@@ -1,21 +1,20 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: oldlace;
-  color: oldlace;
+  background-color: #F9D8FA;
+  color: white;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: oldlace;
-  color: olive;
+  color: white;
   padding: 20px;
 }
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 6vw; /* Adjust the font size based on viewport width */
-    color: oldlace;
+    color: white;
     text-align: center;
     letter-spacing: 2px;
     margin-top: 2vw; /* Adjust margin based on viewport width */
@@ -23,8 +22,8 @@ h1 {
 
 button {
   font-size: 18px;
-  background-color: oldlace;
-  color: olive;
+  background-color: #B5B4F1;
+  color: white;
   padding: 10px 20px;
   border-radius: 10px;
   margin-bottom: 2px;
@@ -34,7 +33,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(211, 211, 163);
+  background-color: b);
 }
 
 main {
@@ -45,7 +44,7 @@ main {
 
 .container {
   flex-basis: calc(50% - 20px);
-  background-color: olive;
+  background-color: #4A7279;
   padding: 20px;
   border-radius: 20px;
   margin-left: 10px;
@@ -119,8 +118,8 @@ main {
 }
 
 footer {
-  background-color: olive;
-  color: oldlace;
+  background-color: #B5B4F1;
+  color: white;
   text-align: center;
   padding: 20px;
   border-top: 1px solid #ccc;
