@@ -21,7 +21,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: oldlace ; /* brown background */
   color: oldlace; /* white text color */
   margin: 0;
@@ -38,13 +38,12 @@ header {
 }
 
 h1 {
-    font-size: 30px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the font bold */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px; /* Adjust the font size as needed */
     color: oldlace; /* Set the color of the heading */
     text-align: center; /* Center align the heading */
-    text-transform: uppercase; /* Transform text to uppercase */
     letter-spacing: 2px; /* Add space between letters */
-    margin-top: 50px;
+    margin-top: 40px;
   
   /* You can add more styles like font-family, line-height, etc. as per your design */
 }
@@ -60,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: bisque/* Darker background on hover */
+  background-color: beige/* Darker background on hover */
 }
 
 main {
@@ -74,8 +73,8 @@ main {
     background-color: olive; /* White background for main containers */
     padding: 20px;
     border-radius: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
 }
 
