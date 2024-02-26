@@ -14,11 +14,11 @@ header {
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 4vw; /* Adjust the font size based on viewport width */
+    font-size: 6vw; /* Adjust the font size based on viewport width */
     color: oldlace;
     text-align: center;
     letter-spacing: 2px;
-    margin-top: 3vw; /* Adjust margin based on viewport width */
+    margin-top: 2vw; /* Adjust margin based on viewport width */
 }
 
 button {
@@ -26,15 +26,15 @@ button {
   background-color: oldlace;
   color: olive;
   padding: 10px 20px;
-  border-radius: 5px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  margin-top: 2px;
   transition: background-color 0.3s ease;
   font-weight: bold; /* Set font weight to bold */
 }
 
 button:hover {
-  background-color: beige;
+  background-color: rgb(211, 211, 163);
 }
 
 main {
