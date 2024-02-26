@@ -13,12 +13,12 @@ header {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 50px;
-  color: oldlace;
-  text-align: center;
-  letter-spacing: 2px;
-  margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw; /* Adjust the font size based on viewport width */
+    color: oldlace;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 3vw; /* Adjust margin based on viewport width */
 }
 
 button {
