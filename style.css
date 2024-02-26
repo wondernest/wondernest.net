@@ -22,15 +22,15 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: oldlace ; /* brown background */
-  color: oldlace; /* white text color */
+  background-color: oldlace ;
+  color: oldlace;
   margin: 0;
   padding: 0;
 }
 
 
 header {
-  background-color: oldlace; /* Beige header background */
+  background-color: oldlace;
   font-family: Arial, sans-serif;
   background-color: oldlace;
   color: olive;
@@ -39,10 +39,10 @@ header {
 
 h1 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 50px; /* Adjust the font size as needed */
-    color: oldlace; /* Set the color of the heading */
-    text-align: center; /* Center align the heading */
-    letter-spacing: 2px; /* Add space between letters */
+    font-size: 50px;
+    color: oldlace;
+    text-align: center;
+    letter-spacing: 2px;
     margin-top: 40px;
   
   /* You can add more styles like font-family, line-height, etc. as per your design */
@@ -51,15 +51,17 @@ h1 {
 
 button {
   font-size: 18px; 
-  background-color:oldlace; /* Dark background */
-  color: olive; /* White text color */
+  background-color:oldlace;
+  color: olive;
   padding: 10px 20px;
   border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: beige/* Darker background on hover */
+  background-color: beige;
 }
 
 main {
@@ -70,49 +72,46 @@ main {
 
 .container {
     flex-basis: calc(50% - 20px);
-    background-color: olive; /* White background for main containers */
+    background-color: olive;
     padding: 20px;
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
 .image-container {
   display: flex;
-  justify-content: center; /* Center the images horizontally */
-  align-items: center; /* Center the images vertically */
-  margin-bottom: 20px; /* Add space below the images */
-  margin-top: 20px; /* Add space below the images */
-  flex-direction: row; /* Default: images are displayed in a row */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  flex-direction: row;
 }
 
 .image-container img {
-  width: 200px; /* Adjust width as needed */
-  height: 200px; /* Adjust height as needed */
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 10px;  /* Add space between images */
+  margin: 0 10px;
   padding: 0 10px;
 }
 
 
 @media (max-width: 768px) {
   .image-container {
-    flex-direction: column; /* Change to column layout for smaller screens */
-  }
+    flex-direction: column;
   .image-container img {
-    width: 200px; /* adjust width for smaller screens */
-    height: 200px; /* adjust height for smaller screens */
-  }
+    width: 200px;
+    height: 200px;
 }
 
 @media (max-width: 480px) {
   .image-container img {
-    width: 160px; /* adjust width for even smaller screens */
-    height: 160px; /* adjust height for even smaller screens */
-  }
+    width: 160px;
+    height: 160px;
 }
 
 .contact-list {
@@ -131,9 +130,9 @@ main {
 }
 
 footer {
-    background-color: olive; /* Beige footer background */
-    color: oldlace; /* Dark text color */
+    background-color: olive;
+    color: oldlace;
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #ccc; /* Light border at the top */
+    border-top: 1px solid #ccc;
 }
