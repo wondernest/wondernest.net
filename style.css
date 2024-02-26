@@ -30,6 +30,7 @@ button {
   margin-bottom: 5px;
   margin-top: 5px;
   transition: background-color 0.3s ease;
+  font-weight: bold; /* Set font weight to bold */
 }
 
 button:hover {
