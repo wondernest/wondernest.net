@@ -1,57 +1,29 @@
-@media (max-width: 768px) {
-    main {
-        flex-direction: column;
-    }
-
-    .container {
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    main {
-        flex-direction: column;
-    }
-
-    .container {
-        flex-basis: 100%;
-        margin-bottom: 20px;
-    }
-}
-
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: oldlace ;
+  background-color: oldlace;
   color: oldlace;
   margin: 0;
   padding: 0;
 }
 
-
 header {
-  background-color: oldlace;
-  font-family: Arial, sans-serif;
   background-color: oldlace;
   color: olive;
   padding: 20px;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: oldlace;
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: 40px;
-  
-  /* You can add more styles like font-family, line-height, etc. as per your design */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  color: oldlace;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 40px;
 }
 
-
 button {
-  font-size: 18px; 
-  background-color:oldlace;
+  font-size: 18px;
+  background-color: oldlace;
   color: olive;
   padding: 10px 20px;
   border-radius: 5px;
@@ -65,21 +37,20 @@ button:hover {
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .container {
-    flex-basis: calc(50% - 20px);
-    background-color: olive;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-basis: calc(50% - 20px);
+  background-color: olive;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .image-container {
   display: flex;
@@ -99,19 +70,31 @@ main {
   padding: 0 10px;
 }
 
-
 @media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .container {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
   .image-container {
     flex-direction: column;
+  }
+
   .image-container img {
     width: 200px;
     height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
   .image-container img {
     width: 160px;
     height: 160px;
+  }
 }
 
 .contact-list {
@@ -130,9 +113,9 @@ main {
 }
 
 footer {
-    background-color: olive;
-    color: oldlace;
-    text-align: center;
-    padding: 20px;
-    border-top: 1px solid #ccc;
+  background-color: olive;
+  color: oldlace;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
 }
