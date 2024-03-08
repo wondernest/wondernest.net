@@ -117,6 +117,40 @@ main {
   margin-right: 5px;
 }
 
+#emailForm {
+    margin-top: 20px;
+}
+
+#emailForm label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#emailForm input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#emailForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #B5B4F1; /* Fallback color */
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#emailForm input[type="submit"]:hover {
+    background-color: #9d9ce4;
+}
+
+
 footer {
   background-color: #B5B4F1;
   color: white;
